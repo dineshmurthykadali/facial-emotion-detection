@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Local environments
+.conda_env/
+.venv/
+venv/
+
+# Kaggle secrets
+kaggle.json
+**/kaggle.json
+.kaggle/
+
+# Generated dataset + artifacts 
+emotion_fer2013_project/data/
+emotion_fer2013_project/models/*.pt
